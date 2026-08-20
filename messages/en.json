@@ -1,0 +1,46 @@
+{
+  "sidebar": {
+    "menu": "Menu",
+    "general": "General",
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "tasks": "Tasks",
+    "calendar": "Calendar",
+    "team": "Team",
+    "repositories": "Repositories",
+    "analytics": "Analytics",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Plan, prioritize, and accomplish your tasks with ease.",
+    "importData": "Import data",
+    "addProject": "Add project",
+    "totalProjects": "Total projects",
+    "endedProjects": "Ended projects",
+    "runningProjects": "Running projects",
+    "pendingProject": "Pending project",
+    "increasedFromLastMonth": "Increased from last month",
+    "onDiscuss": "On discuss"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account and appearance preferences.",
+    "appearance": "Appearance",
+    "appearanceDesc": "Choose light, dark, or follow your system setting.",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "language": "Language",
+    "languageDesc": "Choose the language used throughout the app.",
+    "connections": "Connected accounts",
+    "connectionsDesc": "Manage your connected GitHub and Google accounts.",
+    "signOut": "Sign out"
+  },
+  "auth": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to continue to TrackHub.",
+    "continueWithGithub": "Continue with GitHub",
+    "continueWithGoogle": "Continue with Google"
+  }
+}

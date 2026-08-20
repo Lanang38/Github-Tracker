@@ -1,0 +1,46 @@
+{
+  "sidebar": {
+    "menu": "Menu",
+    "general": "Umum",
+    "dashboard": "Dashboard",
+    "projects": "Proyek",
+    "tasks": "Tugas",
+    "calendar": "Kalender",
+    "team": "Tim",
+    "repositories": "Repositori",
+    "analytics": "Analitik",
+    "settings": "Pengaturan"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Rencanakan, prioritaskan, dan selesaikan tugas dengan mudah.",
+    "importData": "Impor data",
+    "addProject": "Tambah proyek",
+    "totalProjects": "Total proyek",
+    "endedProjects": "Proyek selesai",
+    "runningProjects": "Proyek berjalan",
+    "pendingProject": "Proyek tertunda",
+    "increasedFromLastMonth": "Naik dari bulan lalu",
+    "onDiscuss": "Sedang didiskusikan"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "subtitle": "Kelola preferensi akun dan tampilan.",
+    "appearance": "Tampilan",
+    "appearanceDesc": "Pilih tema terang, gelap, atau ikuti pengaturan sistem.",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem",
+    "language": "Bahasa",
+    "languageDesc": "Pilih bahasa yang digunakan di seluruh aplikasi.",
+    "connections": "Koneksi akun",
+    "connectionsDesc": "Kelola akun GitHub dan Google yang terhubung.",
+    "signOut": "Keluar"
+  },
+  "auth": {
+    "title": "Selamat datang kembali",
+    "subtitle": "Masuk untuk melanjutkan ke TrackHub.",
+    "continueWithGithub": "Lanjutkan dengan GitHub",
+    "continueWithGoogle": "Lanjutkan dengan Google"
+  }
+}
