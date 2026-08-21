@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { ChevronDown } from 'lucide-react';
 
 const projects = [
   {
@@ -87,24 +88,29 @@ export function ProjectProgressCard() {
         <CardTitle>{t('projectProgress')}</CardTitle>
 
         {/* PROJECT DROPDOWN */}
-        <select
-          value={selectedProject.id}
-          onChange={(event) => {
-            const project = projects.find(
-              (item) => item.id === event.target.value,
-            );
+        <div className="relative">
+          <select
+            value={selectedProject.id}
+            onChange={(event) => {
+              const project = projects.find(
+                (item) => item.id === event.target.value,
+              );
 
-            if (project) {
-              setSelectedProject(project);
-            }
-          }}
-          className="max-w-37.5 cursor-pointer rounded-lg border border-neutral-200bg-white px-2.5 py-1.5 text-xs font-medium text-neutral-700 outline-none transition-colors  hover:bg-neutral-50focus:border-emerald-600 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800">
-          {projects.map((project) => (
-            <option key={project.id} value={project.id}>
-              {project.name}
-            </option>
-          ))}
-        </select>
+              if (project) {
+                setSelectedProject(project);
+              }
+            }}
+            className="max-w-37.5 cursor-pointer appearance-none rounded-lg border border-neutral-200 bg-white py-1.5 pl-2.5 pr-8 text-xs font-medium text-neutral-700 outline-none transition-colors hover:bg-neutral-50 focus:border-emerald-600 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:border-emerald-500"
+          >
+            {projects.map((project) => (
+              <option key={project.id} value={project.id}>
+                {project.name}
+              </option>
+            ))}
+          </select>
+
+          <ChevronDown className="pointer-events-none absolute right-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-neutral-500 dark:text-neutral-400" />
+        </div>
       </CardHeader>
 
       <CardContent className="flex flex-col items-center gap-3">
