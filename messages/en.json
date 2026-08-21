@@ -51,7 +51,7 @@
     "connect": "Connect",
     "dangerZone": "Danger zone",
     "deleteAccountTitle": "Delete account",
-    "deleteAccountDesc": "Permanently delete your account and all associated data. This cannot be undone.",
+    "deleteAccountDesc": "This cannot be undone.",
     "deleteAccountCta": "Delete account",
     "deleteAccountConfirmTitle": "Delete your account?",
     "deleteAccountConfirmDesc": "This will permanently delete your account, connected providers, and sessions. This action cannot be undone.",

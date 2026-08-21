@@ -72,7 +72,7 @@ export function NicknameSettings() {
 
       <Button
         size="sm"
-        className="self-start"
+        className="self-end"
         disabled={saving || nickname.trim().length === 0}
         onClick={handleSave}
       >

@@ -51,7 +51,7 @@
     "connect": "Hubungkan",
     "dangerZone": "Zona berbahaya",
     "deleteAccountTitle": "Hapus akun",
-    "deleteAccountDesc": "Hapus akun kamu dan semua data terkait secara permanen. Tindakan ini tidak dapat dibatalkan.",
+    "deleteAccountDesc": "Tindakan ini tidak dapat dibatalkan.",
     "deleteAccountCta": "Hapus akun",
     "deleteAccountConfirmTitle": "Hapus akun kamu?",
     "deleteAccountConfirmDesc": "Ini akan menghapus akun, provider yang terhubung, dan sesi kamu secara permanen. Tindakan ini tidak dapat dibatalkan.",
