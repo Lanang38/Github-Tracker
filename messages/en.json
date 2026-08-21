@@ -40,7 +40,8 @@
     "inProgress": "In progress",
     "recentTasks": "Recent tasks",
     "due": "Due",
-    "newProject": "New"
+    "newProject": "New",
+    "repository": "Language"
   },
   "settings": {
     "title": "Settings",

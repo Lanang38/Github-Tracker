@@ -28,8 +28,10 @@ export default async function DashboardLayout({
         <Header />
 
         {/* CONTENT */}
-        <main className="min-h-0 flex-1 overflow-y-auto p-8">{children}</main>
-      </div>
+        <main className="no-scrollbar min-h-0 flex-1 overflow-y-auto p-8">
+          {children}
+        </main>
+      </div> 
     </div>
   );
 }

@@ -71,7 +71,8 @@
     "deleteAccountConfirmDesc": "Ini akan menghapus akun, provider yang terhubung, dan sesi kamu secara permanen. Tindakan ini tidak dapat dibatalkan.",
     "deleteAccountTypeToConfirm": "Ketik <strong>{value}</strong> untuk konfirmasi.",
     "deleteAccountError": "Terjadi kesalahan saat menghapus akun. Silakan coba lagi.",
-    "cancel": "Batal"
+    "cancel": "Batal",
+    "repository": "Bahasa"
   },
   "login": {
     "title": "Selamat datang kembali",

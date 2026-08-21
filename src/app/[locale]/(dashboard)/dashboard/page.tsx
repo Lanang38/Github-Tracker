@@ -7,6 +7,7 @@ import { UpcomingMeetingCard } from '@/components/dashboard/upcoming-meeting-car
 import { TeamCollaborationCard } from '@/components/dashboard/team-collaboration-card';
 import { ProjectProgressCard } from '@/components/dashboard/project-progress-card';
 import { RecentTasksCard } from '@/components/dashboard/recent-tasks-card';
+import { RepositoryCard } from '@/components/dashboard/repository-card';
 
 export default function DashboardPage() {
   const t = useTranslations('dashboard');
@@ -65,13 +66,14 @@ export default function DashboardPage() {
         <div className="flex flex-col gap-4 lg:col-span-2">
           <CommitActivityChart />
           <TeamCollaborationCard />
+          <RecentTasksCard />
         </div>
 
         {/* Kolom samping: meeting, progress, task terbaru */}
         <div className="flex flex-col gap-4">
           <UpcomingMeetingCard />
           <ProjectProgressCard />
-          <RecentTasksCard />
+          <RepositoryCard />
         </div>
       </div>
     </div>
