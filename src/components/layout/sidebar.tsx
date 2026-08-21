@@ -134,7 +134,7 @@ export function Sidebar() {
             })}
           </nav>
 
-          {/* LOGOUT - TEPAT DI BAWAH SETTINGS */}
+          {/* LOGOUT */}
           <div className="mt-1 ">
             <button
               type="button"

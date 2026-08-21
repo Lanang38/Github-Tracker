@@ -18,11 +18,17 @@ export default async function DashboardLayout({
   }
 
   return (
-    <div className="flex min-h-screen bg-neutral-50 dark:bg-neutral-900">
+    <div className="flex h-screen overflow-hidden bg-neutral-50 dark:bg-neutral-900">
+      {/* SIDEBAR */}
       <Sidebar />
-      <div className="flex flex-1 flex-col overflow-y-auto">
+
+      {/* MAIN AREA */}
+      <div className="flex min-w-0 flex-1 flex-col overflow-hidden">
+        {/* HEADER */}
         <Header />
-        <main className="flex-1 p-8">{children}</main>
+
+        {/* CONTENT */}
+        <main className="min-h-0 flex-1 overflow-y-auto p-8">{children}</main>
       </div>
     </div>
   );
