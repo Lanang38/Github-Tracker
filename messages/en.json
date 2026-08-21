@@ -26,7 +26,21 @@
     "runningProjects": "Running projects",
     "pendingProject": "Pending project",
     "increasedFromLastMonth": "Increased from last month",
-    "onDiscuss": "On discuss"
+    "onDiscuss": "On discuss",
+    "commitActivity": "Commit activity",
+    "upcomingMeeting": "Upcoming meeting",
+    "startMeeting": "Start meeting",
+    "scheduleMeeting": "Schedule meeting",
+    "noUpcomingMeeting": "No meeting scheduled yet",
+    "teamCollaboration": "Team collaboration",
+    "addMember": "Add member",
+    "projectProgress": "Project progress",
+    "projectEnded": "Project ended",
+    "completed": "Completed",
+    "inProgress": "In progress",
+    "recentTasks": "Recent tasks",
+    "due": "Due",
+    "newProject": "New"
   },
   "settings": {
     "title": "Settings",

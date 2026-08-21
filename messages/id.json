@@ -26,7 +26,21 @@
     "runningProjects": "Proyek berjalan",
     "pendingProject": "Proyek tertunda",
     "increasedFromLastMonth": "Naik dari bulan lalu",
-    "onDiscuss": "Sedang didiskusikan"
+    "onDiscuss": "Sedang didiskusikan",
+    "commitActivity": "Aktivitas commit",
+    "upcomingMeeting": "Meeting terdekat",
+    "startMeeting": "Mulai meeting",
+    "scheduleMeeting": "Jadwalkan meeting",
+    "noUpcomingMeeting": "Belum ada meeting terjadwal",
+    "teamCollaboration": "Kolaborasi tim",
+    "addMember": "Tambah anggota",
+    "projectProgress": "Progress proyek",
+    "projectEnded": "Proyek selesai",
+    "completed": "Selesai",
+    "inProgress": "Berjalan",
+    "recentTasks": "Tugas terbaru",
+    "due": "Tenggat",
+    "newProject": "Baru"
   },
   "settings": {
     "title": "Pengaturan",
