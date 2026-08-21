@@ -1,4 +1,9 @@
 {
+  "header": {
+    "greeting": "Hello",
+    "notifications": "Notifications",
+    "notificationsEmpty": "No new notifications yet."
+  },
   "sidebar": {
     "menu": "Menu",
     "general": "General",
@@ -31,6 +36,12 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System",
+    "nickname": "Nickname",
+    "nicknameDesc": "This name appears in the dashboard header greeting.",
+    "nicknamePlaceholder": "Enter a nickname",
+    "nicknameSave": "Save",
+    "nicknameSaved": "Saved",
+    "nicknameError": "Failed to save nickname. Please try again.",
     "language": "Language",
     "languageDesc": "Choose the language used throughout the app.",
     "connections": "Connected accounts",

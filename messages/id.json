@@ -1,4 +1,9 @@
 {
+  "header": {
+    "greeting": "Halo",
+    "notifications": "Notifikasi",
+    "notificationsEmpty": "Belum ada notifikasi baru."
+  },
   "sidebar": {
     "menu": "Menu",
     "general": "Umum",
@@ -31,6 +36,12 @@
     "light": "Terang",
     "dark": "Gelap",
     "system": "Sistem",
+    "nickname": "Nama panggilan",
+    "nicknameDesc": "Nama ini akan muncul di sapaan header dashboard.",
+    "nicknamePlaceholder": "Masukkan nama panggilan",
+    "nicknameSave": "Simpan",
+    "nicknameSaved": "Tersimpan",
+    "nicknameError": "Gagal menyimpan nama panggilan. Coba lagi.",
     "language": "Bahasa",
     "languageDesc": "Pilih bahasa yang digunakan di seluruh aplikasi.",
     "connections": "Koneksi akun",
