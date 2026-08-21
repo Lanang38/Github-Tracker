@@ -1,4 +1,4 @@
-import { Schema, model, models, type Document, type Types } from "mongoose";
+import { Schema, model, models, type Document, type Types } from 'mongoose';
 
 export interface IMeeting extends Document {
   projectId?: Types.ObjectId;
@@ -8,25 +8,21 @@ export interface IMeeting extends Document {
   endTime: Date;
   createdBy: Types.ObjectId;
   attendees: string[];
-  meetLink?: string;
-  googleEventId?: string;
   createdAt: Date;
   updatedAt: Date;
 }
 
 const MeetingSchema = new Schema<IMeeting>(
   {
-    projectId: { type: Schema.Types.ObjectId, ref: "Project" },
+    projectId: { type: Schema.Types.ObjectId, ref: 'Project' },
     title: { type: String, required: true, trim: true },
     description: { type: String, trim: true },
     startTime: { type: Date, required: true },
     endTime: { type: Date, required: true },
-    createdBy: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    createdBy: { type: Schema.Types.ObjectId, ref: 'User', required: true },
     attendees: [{ type: String }],
-    meetLink: { type: String },
-    googleEventId: { type: String },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
-export default models.Meeting || model<IMeeting>("Meeting", MeetingSchema);
+export default models.Meeting || model<IMeeting>('Meeting', MeetingSchema);

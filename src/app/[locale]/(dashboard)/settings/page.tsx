@@ -1,31 +1,31 @@
-import { getTranslations } from "next-intl/server";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ThemeToggle } from "@/components/settings/theme-toggle";
-import { LanguageSwitcher } from "@/components/settings/language-switcher";
-import { Button } from "@/components/ui/button";
-import { signOut } from "@/lib/auth";
+import { useTranslations } from 'next-intl';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { ThemeToggle } from '@/components/settings/theme-toggle';
+import { LanguageSwitcher } from '@/components/settings/language-switcher';
+import { ConnectedAccounts } from '@/components/settings/connected-accounts';
+import { DeleteAccount } from '@/components/settings/delete-account';
 
-export default async function SettingsPage() {
-  const t = await getTranslations("settings");
+export default function SettingsPage() {
+  const t = useTranslations('settings');
 
   return (
     <div className="flex max-w-2xl flex-col gap-6">
       <div>
         <h1 className="text-2xl font-bold text-neutral-900 dark:text-neutral-50">
-          {t("title")}
+          {t('title')}
         </h1>
         <p className="text-sm text-neutral-500 dark:text-neutral-400">
-          {t("subtitle")}
+          {t('subtitle')}
         </p>
       </div>
 
       <Card>
         <CardHeader>
-          <CardTitle>{t("appearance")}</CardTitle>
+          <CardTitle>{t('appearance')}</CardTitle>
         </CardHeader>
         <CardContent className="flex items-center justify-between gap-4">
           <p className="text-sm text-neutral-500 dark:text-neutral-400">
-            {t("appearanceDesc")}
+            {t('appearanceDesc')}
           </p>
           <ThemeToggle />
         </CardContent>
@@ -33,11 +33,11 @@ export default async function SettingsPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>{t("language")}</CardTitle>
+          <CardTitle>{t('language')}</CardTitle>
         </CardHeader>
         <CardContent className="flex items-center justify-between gap-4">
           <p className="text-sm text-neutral-500 dark:text-neutral-400">
-            {t("languageDesc")}
+            {t('languageDesc')}
           </p>
           <LanguageSwitcher />
         </CardContent>
@@ -45,22 +45,22 @@ export default async function SettingsPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>{t("connections")}</CardTitle>
+          <CardTitle>{t('connections')}</CardTitle>
         </CardHeader>
-        <CardContent className="flex items-center justify-between gap-4">
-          <p className="text-sm text-neutral-500 dark:text-neutral-400">
-            {t("connectionsDesc")}
+        <CardContent>
+          <p className="mb-4 text-sm text-neutral-500 dark:text-neutral-400">
+            {t('connectionsDesc')}
           </p>
-          <form
-            action={async () => {
-              "use server";
-              await signOut({ redirectTo: "/login" });
-            }}
-          >
-            <Button type="submit" variant="destructive" size="sm">
-              {t("signOut")}
-            </Button>
-          </form>
+          <ConnectedAccounts />
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>{t('dangerZone')}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <DeleteAccount />
         </CardContent>
       </Card>
     </div>

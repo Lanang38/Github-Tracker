@@ -35,12 +35,39 @@
     "languageDesc": "Pilih bahasa yang digunakan di seluruh aplikasi.",
     "connections": "Koneksi akun",
     "connectionsDesc": "Kelola akun GitHub dan Google yang terhubung.",
-    "signOut": "Keluar"
+    "connectionsLoading": "Memeriksa akun yang terhubung...",
+    "connected": "Terhubung",
+    "connect": "Hubungkan",
+    "dangerZone": "Zona berbahaya",
+    "deleteAccountTitle": "Hapus akun",
+    "deleteAccountDesc": "Hapus akun kamu dan semua data terkait secara permanen. Tindakan ini tidak dapat dibatalkan.",
+    "deleteAccountCta": "Hapus akun",
+    "deleteAccountConfirmTitle": "Hapus akun kamu?",
+    "deleteAccountConfirmDesc": "Ini akan menghapus akun, provider yang terhubung, dan sesi kamu secara permanen. Tindakan ini tidak dapat dibatalkan.",
+    "deleteAccountTypeToConfirm": "Ketik <strong>{value}</strong> untuk konfirmasi.",
+    "deleteAccountError": "Terjadi kesalahan saat menghapus akun. Silakan coba lagi.",
+    "cancel": "Batal"
   },
-  "auth": {
+  "login": {
     "title": "Selamat datang kembali",
-    "subtitle": "Masuk untuk melanjutkan ke TrackHub.",
+    "subtitle": "Masuk untuk melanjutkan ke TrackHub dan mulai kelola proyek GitHub kamu.",
     "continueWithGithub": "Lanjutkan dengan GitHub",
-    "continueWithGoogle": "Lanjutkan dengan Google"
+    "continueWithGoogle": "Lanjutkan dengan Google",
+    "or": "atau",
+    "terms": "Dengan masuk, kamu menyetujui Ketentuan Layanan dan Kebijakan Privasi kami.",
+    "tagline": "Kelola proyek, lacak progress, dan berkolaborasi dengan tim — semua terhubung langsung ke GitHub."
+  },
+  "repositories": {
+    "title": "Repositories",
+    "subtitle": "Repositori dari akun GitHub yang terhubung.",
+    "loading": "Memuat repositori...",
+    "notConnected": "Hubungkan akun GitHub kamu untuk melihat repositori di sini.",
+    "goToSettings": "Buka Pengaturan",
+    "error": "Gagal memuat repositori. Silakan coba lagi.",
+    "retry": "Coba lagi",
+    "empty": "Tidak ada repositori di akun GitHub ini.",
+    "noDescription": "Tidak ada deskripsi.",
+    "private": "Privat",
+    "public": "Publik"
   }
 }

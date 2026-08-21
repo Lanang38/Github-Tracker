@@ -35,12 +35,39 @@
     "languageDesc": "Choose the language used throughout the app.",
     "connections": "Connected accounts",
     "connectionsDesc": "Manage your connected GitHub and Google accounts.",
-    "signOut": "Sign out"
+    "connectionsLoading": "Checking connected accounts...",
+    "connected": "Connected",
+    "connect": "Connect",
+    "dangerZone": "Danger zone",
+    "deleteAccountTitle": "Delete account",
+    "deleteAccountDesc": "Permanently delete your account and all associated data. This cannot be undone.",
+    "deleteAccountCta": "Delete account",
+    "deleteAccountConfirmTitle": "Delete your account?",
+    "deleteAccountConfirmDesc": "This will permanently delete your account, connected providers, and sessions. This action cannot be undone.",
+    "deleteAccountTypeToConfirm": "Type <strong>{value}</strong> to confirm.",
+    "deleteAccountError": "Something went wrong while deleting your account. Please try again.",
+    "cancel": "Cancel"
   },
-  "auth": {
+  "login": {
     "title": "Welcome back",
-    "subtitle": "Sign in to continue to TrackHub.",
+    "subtitle": "Sign in to continue to TrackHub and start managing your GitHub projects.",
     "continueWithGithub": "Continue with GitHub",
-    "continueWithGoogle": "Continue with Google"
+    "continueWithGoogle": "Continue with Google",
+    "or": "or",
+    "terms": "By signing in, you agree to our Terms of Service and Privacy Policy.",
+    "tagline": "Manage projects, track progress, and collaborate with your team — all connected directly to GitHub."
+  },
+  "repositories": {
+    "title": "Repositories",
+    "subtitle": "Repositories from your connected GitHub account.",
+    "loading": "Loading repositories...",
+    "notConnected": "Connect your GitHub account to see your repositories here.",
+    "goToSettings": "Go to Settings",
+    "error": "Failed to load repositories. Please try again.",
+    "retry": "Retry",
+    "empty": "No repositories found on this GitHub account.",
+    "noDescription": "No description provided.",
+    "private": "Private",
+    "public": "Public"
   }
 }
